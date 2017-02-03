@@ -1,0 +1,437 @@
+@font-face {
+	font-family: 'MrRobot';
+	src: url('../fonts/MrRobot.eot');
+	src: url('../fonts/MrRobot.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MrRobot.woff') format('woff'),
+		url('../fonts/MrRobot.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #F7F7F7;
+	color: #333333;
+	font-size: 15px;
+}
+
+footer {
+	margin-top: 40px;
+	height: 50px;
+	background-color: #333333;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 50px;
+}
+
+h1 {
+	font-size: 100px;
+	margin-bottom: 20px;
+}
+h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 30px;
+	line-height: 60px;
+}
+h4 {
+	font-size: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	border-bottom: solid 3px red;
+	display: inline-block;
+}
+
+h1,
+h2 {
+	color: #FFFFFF;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	color: #333333;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+p {
+	line-height: 23px;
+	text-align: justify;
+}
+
+p:not(:last-child) {
+	margin-bottom: 23px;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+.left {
+	width: 660px;
+	float: left;
+}
+
+.right {
+	width: 400px;
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+	position: relative;
+	height: 400px;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	background-position: center center;
+	color: white;
+}
+
+.header .header-title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 700px;
+	text-align: center;
+	font-family: 'MrRobot', sans-serif;
+	font-size: 120px;
+	padding-top: 20px;
+	-webkit-font-smoothing: antialiased; /* ANTIALIASING */
+	background-color: red;
+	opacity: 0.8;
+}
+
+.header .header-menu {
+	display: none;
+}
+
+/* MENU */
+.menu {
+	position: fixed;
+	width: 300px;
+	top: 55px;
+	right: -300px;
+}
+
+.menu li {
+	line-height: 50px;
+	padding-left: 20px;
+	background-color: gray;
+	border-bottom: solid 1px #FFFFFF;
+	color: #FFFFFF;
+}
+
+.menu li:first-child {
+	border-top: solid 1px #FFFFFF;
+}
+
+.menu li:hover {
+	background-color: #333333;
+	cursor: pointer;
+}
+
+
+/* CARD */
+.card {
+	margin-top: 40px;
+	background-color: #FFFFFF;
+	border-radius: 2px;
+	box-shadow: 0 0 5px rgba(51, 51, 51, 0.1);
+}
+
+/* QUI SUIS-JE ? */
+.card-description {
+	padding: 40px;
+	text-align: center;
+}
+
+.avatar {
+	width: 140px;
+	border-radius: 700px;
+	margin-bottom: 20px;
+}
+
+/* RÉSEAUX SOCIAUX */
+.card-social {
+	padding: 40px;
+}
+
+.social {
+	text-align: center;
+}
+
+.social li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.social li > a {
+	font-size: 60px;
+}
+
+a.color-facebook {
+	color: #3b5998;
+}
+
+a.color-twitter {
+	color: #61c5ec;
+}
+
+a.color-linkedin {
+	color: #0077B5;
+}
+
+a.color-github {
+	color: #6cc644;
+}
+
+/* MES DERNIERS ARTICLES */
+.card-previews {
+	padding: 40px;
+}
+
+.card .preview:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.card .preview:last-child {
+	margin-bottom: -20px;
+}
+
+.preview a {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	display: block;
+	margin: 10px 0;
+	font-size: 15px;
+	color: #333333;
+	text-decoration: none;
+}
+
+.preview a:hover {
+	color: red;
+}
+
+.preview img {
+	width: 100%;
+}
+
+/* COMPÉTENCES */
+.card-skills {
+	padding: 40px;
+}
+
+.tags li {
+	padding: 15px;
+	background-color: gray;
+	margin: 0 5px 10px 0;
+	display: inline-block;
+	color: white;
+}
+
+.tags li:hover {
+	background-color: red;
+}
+
+/* CONTACT*/
+.card-contact {
+	padding: 40px;
+	color: #FFFFFF;
+	background-color: #333333;
+}
+
+.card-contact h4,
+.card-contact p {
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+.card-contact input,
+.card-contact textarea {
+	margin: 10px 0 10px 0;
+	display: block;
+	width: 100%;
+	box-sizing : border-box; /* SUPPRIME LA BORDURE EN TROP */
+	border: none;
+	background-color: #FFFFFF;
+	color: #333333;
+	font-size: 17px;
+}
+
+.card-contact input {
+	height: 40px;
+	padding: 0 10px;
+}
+
+.card-contact textarea {
+	height: 150px;
+	padding: 10px;
+}
+
+.card-contact input:focus,
+.card-contact textarea:focus {
+	border-color: #FFFFFF;
+    box-shadow: 0 0 10px #FFFFFF;
+}
+
+.card-contact button {
+	display: block;
+	height: 50px;
+	width: 100%;
+	background-color: red;
+	color: #FFFFFF;
+	border: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+
+.card-contact button:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+/* ARTICLES */
+.article-head {
+	padding: 40px;
+	text-align: center;
+}
+
+.article-baseline {
+	font-size: 18px;
+	color: red;
+}
+
+.article-picture {
+	position: relative;
+}
+
+.article-picture img {
+	width: 100%;
+}
+
+.article-picture .article-date {
+	position: absolute;
+	padding: 10px;
+	bottom: 40px;
+	background-color: red;
+	color: #FFFFFF;
+	font-family: 'Oswald', sans-serif;
+}
+
+.article-description {
+	text-align: justify;
+	padding: 40px;
+	line-height: 23px;
+}
+
+/* MEDIA QUERIES - RESPONSIVE */
+@media (min-width: 769px) and (max-width: 1140px) {
+
+	.left {
+		width: 100%;
+		float: none;
+	}
+
+	.right {
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+
+	.clearfix {
+		clear: none;
+	}
+
+	.container {
+		max-width: 700px;
+	}
+
+	.hidden-sm {
+		display: none;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	.left {
+		width: 100%;
+		float: none;
+	}
+
+	.right {
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+
+	.clearfix {
+		clear: none;
+	}
+
+	.container {
+		width: 100%;
+		padding-top: 15px;
+	}
+
+	.hidden-xs {
+		display: none;
+	}
+
+	/* HEADER */
+	.header {
+		position: fixed;
+		height: 55px;
+		width: 100%;
+		background-image: none;
+		background-color: red;
+		z-index: 999;
+	}
+
+	.header .header-title {
+		position: static;
+		top: auto;
+		left: auto;
+		transform: none;
+		float: left;
+		width: auto;
+		margin: 10px 0 0 10px;
+		font-size: 40px;
+		padding-top: 0;
+		opacity: 1;
+	}
+
+	.header .header-menu {
+		display: block;
+	}
+
+	.header .header-menu button {
+		float: right;
+		border: solid white 1px;
+		padding: 5px;
+		color: #FFFFFF;
+		background-color: transparent;
+		font-size: 20px;
+		width: 40px;
+		margin: 10px 10px 0 0;
+		cursor: pointer;
+	}
+
+}
