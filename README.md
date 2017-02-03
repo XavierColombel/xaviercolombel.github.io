@@ -2,10 +2,10 @@
 
 Retrouvez tous les exercices en cours :
 
-- [Allociné](allocine.html)
+- [Allociné](https://xaviercolombel.github.io/allocine/allocine.html)
 
-- [Mr. Robot](mrrobot/index.html)
+- [Mr. Robot](https://xaviercolombel.github.io/mrrobot/index.html)
 
-- [Deliveroo](deliveroo/index.html)
+- [Deliveroo](https://xaviercolombel.github.io/deliveroo/index.html)
 
-- [Uber](uber/index.html)
+- [Uber](https://xaviercolombel.github.io/uber/index.html)
