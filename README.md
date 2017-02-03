@@ -2,10 +2,10 @@
 
 Get all exercises HTML/CSS/jQuery:
 
-[x] [Allociné](https://xaviercolombel.github.io/allocine/index.html)
+[X] [Allociné](https://xaviercolombel.github.io/allocine/index.html)
 
-[x] [Mr. Robot](https://xaviercolombel.github.io/mrrobot/index.html)
+[X] [Mr. Robot](https://xaviercolombel.github.io/mrrobot/index.html)
 
-[x] [Deliveroo](https://xaviercolombel.github.io/deliveroo/index.html)
+[X] [Deliveroo](https://xaviercolombel.github.io/deliveroo/index.html)
 
-[x] [Uber](https://xaviercolombel.github.io/uber/index.html)
+[X] [Uber](https://xaviercolombel.github.io/uber/index.html)
