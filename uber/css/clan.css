@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'clan-med';
+	src: url('../fonts/clan-med-webfont.eot');
+	src: local('☺'), url('../fonts/clan-med-webfont.woff') format('woff'), url('../fonts/clan-med-webfont.ttf') format('truetype'), url('../fonts/clan-med-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'clan-book';
+	src: url('../fonts/clan-book-webfont.eot');
+	src: local('☺'), url('../fonts/clan-book-webfont.woff') format('woff'), url('../fonts/clan-book-webfont.ttf') format('truetype'), url('../fonts/clan-book-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
