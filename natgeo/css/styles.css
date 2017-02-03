@@ -1,0 +1,81 @@
+.header-hero {
+	position: relative;
+	height: 400px;
+	background-image: url(../img/b6garfdbnp8-jeremy-bishop.jpg);
+	background-size: cover;
+	background-position: center;
+	/*background-color: yellow;*/
+}
+
+.header-hero .leaf > i.fa {
+	position: absolute;
+	font-size: 100px;
+	color: white;
+	right: 50%;
+	bottom: 50%;
+	transform: translate(50%, 50%);
+	/*background-color: red;*/
+}
+
+header {
+	background-color: black;
+	height: 130px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 35px;
+}
+
+header ul {
+	text-transform: uppercase;
+	font-weight: 600;
+	display: inline-block;
+	line-height: 130px;
+}
+
+header li {
+	font-size: 18px;
+	display: inline;
+	margin: 0 20px;
+}
+
+header li > i {
+	color: #FCDF00;
+}
+
+footer {
+	background-color: red;
+	color: white;
+	font-size: 20px;
+}
+
+.menu {
+	height: 60px;
+	background-color: green;
+	color: white;
+	clear: both;
+}
+
+.poster:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
