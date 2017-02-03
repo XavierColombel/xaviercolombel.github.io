@@ -2,7 +2,7 @@
 
 Retrouvez tous les exercices en cours :
 
-- [Allociné](https://xaviercolombel.github.io/allocine/allocine.html)
+- [Allociné](https://xaviercolombel.github.io/allocine/index.html)
 
 - [Mr. Robot](https://xaviercolombel.github.io/mrrobot/index.html)
 
