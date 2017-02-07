@@ -10,6 +10,6 @@
 
 - [x] [Deliveroo](https://xaviercolombel.github.io/frontend/deliveroo/index.html)
 
-- [x] [Uber](https://xaviercolombel.github.io/uber/frontend/index.html)
+- [x] [Uber](https://xaviercolombel.github.io/frontend/uber/index.html)
 
 - [x] [Allociné + jQuery Template](https://xaviercolombel.github.io/frontend/allocine/template/index.html)
