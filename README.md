@@ -1,16 +1,20 @@
-# Masterize Frontend @ Le Reacteur
+# Exercises @ Le Reacteur
 
-Get all exercises HTML/CSS/jQuery:
+## Frontend
 
-- [x] [Allociné](https://xaviercolombel.github.io/allocine/original/index.html)
+- [x] [Allociné](https://xaviercolombel.github.io/frontend/allocine/original/index.html)
 
-- [x] [Allociné + jQuery Template](https://xaviercolombel.github.io/allocine/template/index.html)
+- [x] [Mr. Robot](https://xaviercolombel.github.io/frontend/mrrobot/index.html)
 
-- [x] [National Geographic](https://xaviercolombel.github.io/natgeo/index.html)
+- [x] [National Geographic](https://xaviercolombel.github.io/frontend/natgeo/index.html)
 
-- [x] [Mr. Robot](https://xaviercolombel.github.io/mrrobot/index.html)
+- [x] [Deliveroo](https://xaviercolombel.github.io/frontend/deliveroo/index.html)
 
-- [x] [Deliveroo](https://xaviercolombel.github.io/deliveroo/index.html)
+- [x] [Uber](https://xaviercolombel.github.io/uber/frontend/index.html)
 
-- [x] [Uber](https://xaviercolombel.github.io/uber/index.html)
+- [x] [Allociné + jQuery Template](https://xaviercolombel.github.io/frontend/allocine/template/index.html)
+
+## Backend
+
+- [x] [API Pokemon](https://xaviercolombel.github.io/backend/01/mon-premier-serveur-web/index.html)
 
