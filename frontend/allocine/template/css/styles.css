@@ -68,9 +68,13 @@ footer {
 	display: inline-block;
 }
 
-.menu li:hover {
+.menu li a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.menu li a:hover {
 	color: #FECC00;
-	cursor: pointer;
 }
 
 .movie {
