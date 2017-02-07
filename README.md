@@ -2,7 +2,9 @@
 
 Get all exercises HTML/CSS/jQuery:
 
-- [x] [Allociné](https://xaviercolombel.github.io/allocine/index.html)
+- [x] [Allociné](https://xaviercolombel.github.io/allocine/original/index.html)
+
+- [x] [Allociné + jQuery Template](https://xaviercolombel.github.io/allocine/jQuery_template/index.html)
 
 - [x] [National Geographic](https://xaviercolombel.github.io/natgeo/index.html)
 
