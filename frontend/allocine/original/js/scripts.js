@@ -2,23 +2,12 @@ $(document).ready(function() {
 
 	console.log("-- Document Ready !");
 
-	// function gotoSection(section) {
-	// 	console.log("go to :", section);
-	// 	$('body,html').animate({
-	// 		scrollTop: $('#'+section).offset().top
-	// 	}, 'slow');
-	// }
-
 	var gotoSection = function(section) {
 		console.log("go to :", section);
 		$('body,html').animate({
 			scrollTop: $('#'+section).offset().top
 		}, 'slow');
 	}
-
-	// $('section#action').hover(function() {
-	// 	console.log("section action");
-	// })
 
 	$('.menu li').click(function() {
 		var section = $(this).attr('data-section');
@@ -63,27 +52,6 @@ $(document).ready(function() {
 	$('.menu-button').click(function() {
 		menuOpenClose();
 	});
-
-	// $('.button-trailer').mouseenter(function() {
-	// 	$(this).html("<i class=\"fa fa-rocket\"></i> Allez go !");
-	// })
-
-	// $('.button-trailer').mouseleave(function() {
-	// 	$(this).html("<i class=\"fa fa-play-circle\"></i> Voir le trailer");
-	// });
-
-	// $('#newsletter').on('submit',function() {
-	// 	console.log("-- form submitted");
-
-	// 	var name = $('input[name="firstname"]').val();
-	// 	//var name = $('#idName').val();
-
-	// 	var dataToto = $('#idName').attr('data-toto');
-	// 	console.log("Name: " + name);
-	// 	console.log("Data Toto:", dataToto);
-
-	// 	return false;
-	// });
 
 	$('#btnSend').click(function() {
 		var name = $('input[name="firstname"]').val();
