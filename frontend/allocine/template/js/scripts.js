@@ -6,7 +6,7 @@ $(document).ready(function(){
 
 });
 
-const API_KEY = 'YOUR_API_KEY_HERE';
+const API_KEY = 'e0f058cb785cac4e6585086b67da86f4';
 
 function getMovies(type) {
 
