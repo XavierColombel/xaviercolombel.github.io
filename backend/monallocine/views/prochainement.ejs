@@ -1,0 +1,38 @@
+<% include commons/header.ejs %>
+<% include commons/banner.ejs %>
+<% include commons/navbar.ejs %>
+<h2>Prochainement, <span class="moviesLength"><%= totalResults %></span> films dans vos salles</h2>
+<% for (var i = 0; i < movies.length; i++) { %>
+<div class="movie">
+    <div class="row">
+        <div class="col-md-3">
+            <img src="https://image.tmdb.org/t/p/w500/<%= movies[i].poster_path %>" class="img-responsive">
+            <a href="#" data-id="<%= movies[i].id %>" class="play-button"><i class="fa fa-play-circle-o"></i></a>
+        </div>
+        <div class="col-md-9">
+            <h3><%= movies[i].title %></h3>
+            <ul class="movie-rate">
+                <%
+                var noteWithHalf = Math.round(parseInt(movies[i].vote_average))/2;
+                var noteWithoutHalf = Math.round(noteWithHalf);
+                var starHalf = noteWithoutHalf - noteWithHalf;
+                for (var j = 0; j < noteWithoutHalf; j++) { %>
+                <li><i class="fa fa-star"></i></li>
+                <% } %>
+                <% if (starHalf) { %><li><i class="fa fa-star-half-o"></i></li><% } %>
+                <% for (var j = 0; j < 5 - noteWithoutHalf - Math.ceil(starHalf); j++) { %>
+                <li><i class="fa fa-star-o"></i></li>
+                <% } %>
+            </ul>
+            <p class="description"><%= movies[i].overview ? movies[i].overview : "Désolé, il n'y a aucune description pour ce film." %></p>
+            <button type="button" class="addMovieBtn <% if (favorites.indexOf(movies[i].id.toString()) >= 0 ) { %> hidden <% } %>" data-id="<%= movies[i].id %>"><i class="fa fa-thumbs-up"></i> J'aime</button>
+            <button type="button" class="removeMovieBtn <% if (favorites.indexOf(movies[i].id.toString()) === -1) { %> hidden<% } %>"hidden" data-id="<%= movies[i].id %>"><i class="fa fa-thumbs-down"></i> Je n'aime plus</button>
+        </div>
+    </div>
+</div>
+<% } %>
+
+<% include commons/modal.ejs %>
+<% include commons/pagination.ejs %>
+<% include commons/footer-bar.ejs %>
+<% include commons/footer.ejs %>
